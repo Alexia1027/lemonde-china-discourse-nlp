@@ -44,7 +44,7 @@ Semantic Prosody (Word2Vec): Preserves sentence boundaries to map precise cosine
 Rule-based CDA: Extracts explicit "Othering" by identifying comparative markers (tandis que, au contraire) juxtaposing Europe and China.
 
 ## 🚀 How to Replicate
-Clone the repository: git clone https://github.com/[Your-Username]/[Your-Repo-Name].git
+Clone the repository
 Install dependencies: pip install -r requirements.txt
 Download the French Spacy model: python -m spacy download fr_core_news_sm
 Note: **Raw copyrighted texts from Le Monde are not included in this public repository to respect intellectual property.** Ensure your dataset is placed in a local data/raw/ directory before running the scripts in numerical order.
