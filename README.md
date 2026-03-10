@@ -36,13 +36,14 @@ Unlike standard "black-box" text mining, this project employs a highly granular,
 │   ├── 06_critical_discourse/       # Rule-based NLP for Comparative Rhetoric and "Othering" extraction
 │   ├── 07_audience_reception/       # YouTube scraping and K-Means Persona Clustering
 │   └── 08_experiments_and_baselines/# Abandoned baselines (e.g., DistilCamemBERT evaluation)
+```
 
-📊 Key Analytical Features
+## 📊 Key Analytical Features
 Discourse Cartography: High-resolution quadrant bubble charts mapping the "Broadness" vs. "Intensity" of agenda-setting keywords.
 Semantic Prosody (Word2Vec): Preserves sentence boundaries to map precise cosine similarities between geopolitical actors.
 Rule-based CDA: Extracts explicit "Othering" by identifying comparative markers (tandis que, au contraire) juxtaposing Europe and China.
 
-🚀 How to Replicate
+## 🚀 How to Replicate
 Clone the repository: git clone https://github.com/[Your-Username]/[Your-Repo-Name].git
 Install dependencies: pip install -r requirements.txt
 Download the French Spacy model: python -m spacy download fr_core_news_sm
